@@ -34,6 +34,9 @@ steps:
     arguments: -c $(buildConfiguration) --no-build
     publishTestResults: true
 
+- script: dir allure-results
+  displayName: 'List files in allure-results directory'
+
 - task: PublishAllureReport@1
   displayName: Publish Report
   inputs:
