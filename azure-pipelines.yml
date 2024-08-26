@@ -1,0 +1,35 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+  
+variables:
+  buildConfiguration: 'Release'
+  profile: 'azure'
+  environment: 'Stage'
+
+steps:
+
+- task: UseDotNet@2
+  displayName: Use .NET 8.0
+  inputs:
+    packageType: 'sdk'
+    version: '8.0.x'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build whole solution'
+  env: 
+    MSBUILDSINGLELOADCONTEXT: 1  # https://github.com/SpecFlowOSS/SpecFlow/issues/1912
+  inputs:
+    command: 'build'
+    projects: Aquality.Selenium.Template/Aquality.Selenium.Template.sln
+    arguments: -c $(buildConfiguration)
+
+- task: DotNetCoreCLI@2
+  displayName: 'Run tests'
+  inputs:
+    command: 'test'
+    projects: '**/Aquality.Selenium.Template.SpecFlow.csproj'
+    arguments: -c $(buildConfiguration) --no-build
+    publishTestResults: true
