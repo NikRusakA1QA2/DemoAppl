@@ -23,7 +23,7 @@ steps:
     MSBUILDSINGLELOADCONTEXT: 1  # https://github.com/SpecFlowOSS/SpecFlow/issues/1912
   inputs:
     command: 'build'
-    projects: Aquality.Selenium.Template/Aquality.Selenium.Template.sln
+    projects: Aquality.Selenium.Template.sln
     arguments: -c $(buildConfiguration)
 
 - task: DotNetCoreCLI@2
