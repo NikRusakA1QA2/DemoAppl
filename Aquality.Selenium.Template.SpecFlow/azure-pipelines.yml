@@ -39,3 +39,4 @@ steps:
   inputs:
     allureVersion: 2.30.0
     testResultsDir: allure-results
+  condition: always()
