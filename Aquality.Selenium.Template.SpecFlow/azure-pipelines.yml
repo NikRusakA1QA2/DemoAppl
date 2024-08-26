@@ -35,7 +35,7 @@ steps:
     publishTestResults: true
 
 - task: PublishAllureReport@1
-   displayName: Publish Report
-   inputs:
-      allureVersion: 2.27.0
-      testResultsDir: allure-results
+  displayName: Publish Report
+  inputs:
+    allureVersion: 2.27.0
+    testResultsDir: allure-results
