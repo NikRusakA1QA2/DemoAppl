@@ -34,12 +34,12 @@ steps:
     arguments: -c $(buildConfiguration) --no-build
     publishTestResults: true
 
-- script: dir .
+- script: dir Aquality.Selenium.Template.SpecFlow
   displayName: 'List files in directory'
 
 - task: PublishAllureReport@1
   displayName: Publish Report
   inputs:
     allureVersion: 2.30.0
-    testResultsDir: bin/Debug/net8.0/allure-results
+    testResultsDir: Aquality.Selenium.Template.SpecFlow/bin/Debug/net8.0/allure-results
   condition: always()
