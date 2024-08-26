@@ -34,8 +34,8 @@ steps:
     arguments: -c $(buildConfiguration) --no-build
     publishTestResults: true
 
-- script: dir Aquality.Selenium.Template.SpecFlow
-  displayName: 'List files in directory'
+- script: allure generate --clean
+  displayName: 'Generate Allure Report'
 
 - task: PublishAllureReport@1
   displayName: Publish Report
