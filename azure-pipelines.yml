@@ -38,5 +38,5 @@ steps:
   displayName: Publish Report
   inputs:
     allureVersion: 2.30.0
-    testResultsDir: allure-results
+    testResultsDir: bin/Debug/net8.0/allure-results
   condition: always()
