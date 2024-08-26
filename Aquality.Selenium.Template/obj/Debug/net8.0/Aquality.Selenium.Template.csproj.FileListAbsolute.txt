@@ -1,0 +1,8 @@
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.csproj.AssemblyReference.cache
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.GeneratedMSBuildEditorConfig.editorconfig
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.AssemblyInfoInputs.cache
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.AssemblyInfo.cs
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.csproj.CoreCompileInputs.cache
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.dll
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/refint/Aquality.Selenium.Template.dll
+/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/Debug/net8.0/Aquality.Selenium.Template.pdb

@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template.SpecFlow/Aquality.Selenium.Template.SpecFlow.csproj": {}
+  },
+  "projects": {
+    "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template.SpecFlow/Aquality.Selenium.Template.SpecFlow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template.SpecFlow/Aquality.Selenium.Template.SpecFlow.csproj",
+        "projectName": "Aquality.Selenium.Template.SpecFlow",
+        "projectPath": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template.SpecFlow/Aquality.Selenium.Template.SpecFlow.csproj",
+        "packagesPath": "/Users/n.rusak/.nuget/packages/",
+        "outputPath": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template.SpecFlow/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/n.rusak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/Aquality.Selenium.Template.csproj": {
+                "projectPath": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/Aquality.Selenium.Template.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Allure.SpecFlow": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Aquality.Selenium": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "AqualityTracking.SpecFlowPlugin": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.15, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/Aquality.Selenium.Template.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/Aquality.Selenium.Template.csproj",
+        "projectName": "Aquality.Selenium.Template",
+        "projectPath": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/Aquality.Selenium.Template.csproj",
+        "packagesPath": "/Users/n.rusak/.nuget/packages/",
+        "outputPath": "/Users/n.rusak/Downloads/aquality-selenium-dotnet-template-master/Aquality.Selenium.Template/Aquality.Selenium.Template/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/n.rusak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Allure.Net.Commons": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Aquality.Selenium": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "AqualityTracking.Integrations.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "AspectInjector": {
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[2.8.2, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[2.88.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
