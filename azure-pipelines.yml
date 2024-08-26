@@ -33,13 +33,3 @@ steps:
     projects: '**/Aquality.Selenium.Template.SpecFlow.csproj'
     arguments: -c $(buildConfiguration) --no-build
     publishTestResults: true
-
-- script: allure generate --clean
-  displayName: 'Generate Allure Report'
-
-- task: PublishAllureReport@1
-  displayName: Publish Report
-  inputs:
-    allureVersion: 2.30.0
-    testResultsDir: allure-results
-  condition: always()
