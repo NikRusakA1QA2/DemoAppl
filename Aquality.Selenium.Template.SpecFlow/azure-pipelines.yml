@@ -33,3 +33,9 @@ steps:
     projects: '**/Aquality.Selenium.Template.SpecFlow.csproj'
     arguments: -c $(buildConfiguration) --no-build
     publishTestResults: true
+
+- task: PublishAllureReport@1
+   displayName: Publish Report
+   inputs:
+      allureVersion: 2.27.0
+      testResultsDir: allure-results
