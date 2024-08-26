@@ -41,5 +41,5 @@ steps:
   displayName: Publish Report
   inputs:
     allureVersion: 2.30.0
-    testResultsDir: Aquality.Selenium.Template.SpecFlow/bin/Debug/net8.0/allure-results
+    testResultsDir: allure-results
   condition: always()
