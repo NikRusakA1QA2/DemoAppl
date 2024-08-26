@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Aquality.Selenium.Template/bin/Debug
+/Aquality.Selenium.Template.NUnit/bin/Debug/net7.0
+/Aquality.Selenium.Template.NUnit/obj/Debug/net7.0
+/Aquality.Selenium.Template.SpecFlow/bin/Debug/net7.0
+/Aquality.Selenium.Template.SpecFlow/bin/Debug/net8.0
+/Aquality.Selenium.Template.SpecFlow/Log
+/Aquality.Selenium.Template.SpecFlow/obj/Debug/net7.0
+/Aquality.Selenium.Template.SpecFlow/obj/Debug/net8.0/ref
+/Aquality.Selenium.Template.SpecFlow/obj/Debug/net8.0/refint
